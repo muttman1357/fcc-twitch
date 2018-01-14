@@ -1,0 +1,43 @@
+.tw-container{
+  color: #cccccc;
+  height: 100%;
+  background-color: #405d27;
+  .content {
+    height: 90%;
+    padding: 1em;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: #3e4444;
+    .type {
+      color: #000;
+      background-color: #82b74b;
+    }
+    ul {
+      li {
+        a {
+          color: #cccccc;
+        }
+      }
+    }
+    .stream-container {
+      overflow: auto;
+      height: 86%;
+      .streams {
+        .stream {
+          color: #000;
+          background-color: #c1946a;
+          margin: 0.5em 0;
+          padding: .5em;
+          overflow: auto;
+          .stream-thumb {
+            float: left;
+            border-radius: 50%;
+          }
+          border: 1px solid #000000;
+        }
+      }
+    }
+  }
+}
